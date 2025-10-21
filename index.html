@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Soothe - Luxury Massage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FF6B00",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#121212",
+                    },
+                    fontFamily: {
+                        "display": ["Newsreader", "serif"],
+                        "sans": ["Lato", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Newsreader', serif;
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-white/10 px-6 sm:px-10 py-4 bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] font-display">Soothe</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white text-sm font-medium leading-normal" href="#services">Services</a>
+<a class="text-white text-sm font-medium leading-normal" href="#gallery">Gallery</a>
+<a class="text-white text-sm font-medium leading-normal" href="#contact">Contact</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Book Now</span>
+</button>
+</div>
+<button class="md:hidden flex items-center justify-center text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-1">
+<section class="relative h-screen">
+<img alt="A serene and luxurious massage room with soft, ambient lighting, elegant decor, and a plush massage bed at the center." class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJEsdg_O6QCXa7UGOSxEVbr45fRPirvvflEs2G1jlvA-Opk2wUx6CHcCQTj9MK_UwwNo5YN_xyN-kH-canfOb4ZAbvniXy3cHwA0wiCj9ZNFjOMuzGOWw0MG5LpdIF-gz215E1mbT0ecGYUE9Csnw8XwdPOwoGYGEvHkPF8K3UYVXTZdJA8FI05KohRD2p8hQQeXzvr80AtmxavhEuAYfe0YddnMYdDfvUdBWkQxU-wJPHzgzO3K-gsdC6ZAc9btvZv_vLdr5rIpA"/>
+<div class="absolute inset-0 bg-black/60"></div>
+<div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+<h1 class="text-white text-5xl md:text-7xl font-display font-medium italic leading-tight tracking-tighter">Where Serenity Meets Luxury.</h1>
+<p class="mt-4 max-w-2xl text-white/80 md:text-lg font-sans">Step into a world of tranquility and refined elegance. Your journey to ultimate relaxation begins here.</p>
+<button class="mt-8 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Book Your Escape</span>
+</button>
+</div>
+</section>
+<section class="py-16 sm:py-24 px-6 sm:px-10 max-w-7xl mx-auto" id="services">
+<h2 class="text-white text-3xl sm:text-4xl font-bold leading-tight tracking-[-0.015em] font-display text-center mb-12">Our Signature Services</h2>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden -mx-6 px-6">
+<div class="flex items-stretch gap-6 pb-4">
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white/5 shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-80 w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl flex flex-col" data-alt="A tranquil massage room with a focus on warm lighting and natural textures." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDK_VveSpi9AXTP8goWk4Mi9itPq9GHFvuxBTdQYxUIZ50pH8vPT76n8n1KRjE8ts3Fe8QpTv-Xw5qw0AOupGpO7_erjOHIkDuBOw-GqAdelVqpdJP-IcBTJAGS9tWxmerBxsqEY7N3hs2yvdw48xN-Rv1OHUJGOn69M0drViV6AUgRceeieTbHh3rU0mOTn4FJ5Y7TWHfSHhKZvpqu3tnBa9U-kcimOiDA3pfnIZ9ZYNEUWA4sGMH_6vJ7rBT562Ppks4XSVbdRus");'></div>
+<div class="flex flex-col flex-1 justify-between p-6 pt-0 gap-4">
+<div>
+<p class="text-white text-xl font-bold leading-normal font-display">Deep Tissue Massage</p>
+<p class="text-white/60 text-sm font-normal leading-normal mt-2 font-sans">An intense massage targeting deep muscle layers to release chronic tension. 60/90 min - $120/$170</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-white/10 text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-white/20 transition-colors">
+<span class="truncate">Learn More</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white/5 shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-80 w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl flex flex-col" data-alt="Smooth, dark hot stones placed on a person's back during a massage." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAwFwCSqeh4FbymID8zFMKlPFHL5qT1-ZtYEFKwpC4u5KDliXFtd_0dCUMZ6LFxkQenXf_iXS8CURNWxPStMKYisRYmCMg074hSwEK3N73pyWqcmtR_O5sDSTPh3_Tb0G3_v9axXwlnLQTVSZ1SYESJ3J_S74DK3TfFOXM6BPpZvxC_X1Yeg9zlM8a4pZkMIfV1C6hKaky7YK5oalVqfER5fVDmYA4tSY9_92Ar5gy3dR6hjW7CzLkdOy--8q4eZfi6pzQjyH30Hs4");'></div>
+<div class="flex flex-col flex-1 justify-between p-6 pt-0 gap-4">
+<div>
+<p class="text-white text-xl font-bold leading-normal font-display">Hot Stone Massage</p>
+<p class="text-white/60 text-sm font-normal leading-normal mt-2 font-sans">Heated stones melt away tension and calm your nervous system. 75 min - $150</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-white/10 text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-white/20 transition-colors">
+<span class="truncate">Learn More</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white/5 shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-80 w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl flex flex-col" data-alt="Close-up of a therapist's hands applying oil during a Swedish massage." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBhg5M-91LZOcsRduxbn5vmWMvCZfW6PNlnr8RX53whDClz3_FW3kEfXelGGYaw7a9o05UXhAJcW2HVhXJWs3oGipQUbAc3H5haM9d9o9oie6I_c67q3kQCtAv9A8xc0IckEVlzqdT12JCqbL9FKxSsBIGs7bCdQSB5J42YGpomgmdsJQwFGvTwVcSmSCyC63Rts5pMIUrm91kQv7PaRnVtWwYnSh2IAhu_R2kdy3IlqYnFGnUjVP4j_Y8Z_4o88uY5Z_xAGWsMrYk");'></div>
+<div class="flex flex-col flex-1 justify-between p-6 pt-0 gap-4">
+<div>
+<p class="text-white text-xl font-bold leading-normal font-display">Swedish Massage</p>
+<p class="text-white/60 text-sm font-normal leading-normal mt-2 font-sans">A classic relaxing massage with long, gliding strokes for pure bliss. 60/90 min - $100/$150</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-white/10 text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-white/20 transition-colors">
+<span class="truncate">Learn More</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24 bg-white/5" id="booking">
+<div class="max-w-4xl mx-auto px-6 sm:px-10">
+<h2 class="text-white text-3xl sm:text-4xl font-bold leading-tight tracking-[-0.015em] font-display text-center mb-12">Book Your Appointment</h2>
+<div class="bg-background-dark p-8 rounded-xl shadow-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="flex flex-col gap-6">
+<div>
+<label class="block text-sm font-medium text-white/80 font-sans mb-2" for="service">Select Your Service</label>
+<select class="block w-full rounded-lg border-white/20 bg-white/5 p-3 text-white focus:border-primary focus:ring-primary font-sans" id="service" name="service">
+<option>Deep Tissue Massage</option>
+<option>Hot Stone Massage</option>
+<option>Swedish Massage</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-white/80 font-sans mb-2">Select Date</label>
+<div class="bg-white/5 p-4 rounded-lg">
+<div class="flex justify-between items-center text-white mb-4">
+<button class="material-symbols-outlined text-white/60 hover:text-white">chevron_left</button>
+<h3 class="font-bold text-lg font-sans">October 2024</h3>
+<button class="material-symbols-outlined text-white/60 hover:text-white">chevron_right</button>
+</div>
+<div class="grid grid-cols-7 text-center text-sm text-white/60 font-sans">
+<div class="py-2">S</div><div class="py-2">M</div><div class="py-2">T</div><div class="py-2">W</div><div class="py-2">T</div><div class="py-2">F</div><div class="py-2">S</div>
+<div class="py-2 text-white/40">29</div><div class="py-2 text-white/40">30</div><div class="py-2">1</div><div class="py-2">2</div><div class="py-2">3</div><div class="py-2">4</div><div class="py-2">5</div>
+<div class="py-2">6</div><div class="py-2">7</div><div class="py-2">8</div><div class="py-2">9</div><div class="py-2">10</div><div class="py-2">11</div><div class="py-2">12</div>
+<div class="py-2">13</div><div class="py-2">14</div><div class="py-2">15</div><div class="py-2 cursor-pointer bg-primary/20 text-primary rounded-full">16</div><div class="py-2">17</div><div class="py-2">18</div><div class="py-2">19</div>
+<div class="py-2">20</div><div class="py-2">21</div><div class="py-2">22</div><div class="py-2">23</div><div class="py-2">24</div><div class="py-2">25</div><div class="py-2">26</div>
+<div class="py-2">27</div><div class="py-2">28</div><div class="py-2">29</div><div class="py-2">30</div><div class="py-2">31</div><div class="py-2 text-white/40">1</div><div class="py-2 text-white/40">2</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<div>
+<label class="block text-sm font-medium text-white/80 font-sans mb-2">Select Time</label>
+<div class="grid grid-cols-2 gap-3">
+<button class="text-center rounded-lg border border-white/20 p-3 hover:border-primary hover:bg-primary/10 transition-colors font-sans">10:00 AM</button>
+<button class="text-center rounded-lg border border-white/20 p-3 hover:border-primary hover:bg-primary/10 transition-colors font-sans">11:30 AM</button>
+<button class="text-center rounded-lg border border-white/20 p-3 bg-primary/20 border-primary text-primary font-sans">01:00 PM</button>
+<button class="text-center rounded-lg border border-white/20 p-3 hover:border-primary hover:bg-primary/10 transition-colors font-sans">02:30 PM</button>
+<button class="text-center rounded-lg border border-white/20 p-3 hover:border-primary hover:bg-primary/10 transition-colors font-sans">04:00 PM</button>
+<button class="text-center rounded-lg border border-white/20 p-3 text-white/40 cursor-not-allowed" disabled="">05:30 PM</button>
+</div>
+</div>
+<button class="w-full flex mt-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Confirm Booking</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24 px-6 sm:px-10 max-w-7xl mx-auto" id="gallery">
+<h2 class="text-white text-3xl sm:text-4xl font-bold leading-tight tracking-[-0.015em] font-display text-center mb-12">The Soothe Experience</h2>
+<div class="columns-2 md:columns-3 gap-4 space-y-4">
+<img class="rounded-lg" data-alt="A serene spa room with two massage beds and dim lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0Bpz25uvYKGq9Q1pjWou0WHJB7M9Ege5iu0H3kDjEOAT3MgnCkEiUcR9EOyd9zLU4T6YdbBVF-VRLoNyyLEBw9I7a63aP9RCLJAi7r0QbklXFIpGOirPzSpDM7dzBrCX8wGkFSNENb7n3ty9vPAW7H4DJ-Emk-dfsRU-TcgMfcq3-859QEciyfGeOcEcfR0LPDYoatB2YguBMTIs6djTfKxPkA43sFF1LlCxXTjB4GoeNeW71i-WfLGJlw981dIx9DrF5BRuEbb8"/>
+<img class="rounded-lg" data-alt="Close-up of neatly folded white towels in a spa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7PTN7-7ik-_EOg7vciRjEzVCGafFMrZKYTSV0LOX3yqnKPchiw2SSJ4LK-Pjb35vFTFcbGAo5cFAMYiFzI0C4Cobo01RqMPhnXYw705GCYDXF2H62Q9Zjzv2GOXB0byZWAyHMQrtJ0fnIfC0JGwVh-BqQISU3FY3BCdjbgixyM_ZXQ7bhkoV0G0k8x-Vhr2dmS3rBNeoWC2mCqQN-bFpBYw06Ffzod_yQezkOTn1HXFE5E06T6e0ckgNh70edXt75ITddaetLL5U"/>
+<img class="rounded-lg" data-alt="Luxurious massage oils in elegant glass bottles." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-_cRmEwbiPKHmaybAqtb4nX3C5vuDsDNX6oyIj2Fr-rnkWsqE5JuZl7n_62GyCGBjzLXfl-cAdZYvCNsICjx-bYKtx0UXaMlBl0RN02RwUsfYw4lMdv_A6Qu7huB2Sis3bjQHRSDNkqVK4wwovmcw7_Z2pp2IV_3r1EGGj0ZbscAgGo4p81zJAmcpx63AsxynlGShfCNlXdtW3Z362RvYtxXrPQsyyfKbFMiHjxfHKWusH_MJH_Rr9ZsiF9OB5Erni2Trpk40bTE"/>
+<img class="rounded-lg" data-alt="A relaxation area with comfortable seating and a tranquil view." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxgzhVXlA15KRlkUoSEsEGx7GsbaulJcYhQfBxEkqNvhjx6waZYSmdh-GJDZXrSZVhRN5H2xK1MQdYtB-WXPJtcm65QAnvrnXGg8o-bejMjbmit-A7BTKl9qcF_BZp-LFAtpTqJN-5L_egDgqwBeh0WUmFtf199SyUKyL_Ye3Cv2H1FQkuG1uE90jCPbUW8-knDvYvNrQxuGpT8aGPOlNYSTMd02IMNWiW6i7pQupxEg9OeydpRVbjjP72VxJIXEf0gfIQuyWJbcc"/>
+<img class="rounded-lg" data-alt="A detailed shot of scented candles and spa decor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4ALrpqOEHwWEeV10eWsvj9qN20qeG-sid3tO9ZXQmhljZjN7l5JsjnJSIcGWl8-ceDv_-3Y8alG5-eEcbYgZFb6SdA2YnUFQs2g1ySoJ5noMa6CPLUM0acikSPOo76sSs93H8bwEEcVl8dmNyYJqkRuLmO_acMIcGPLQY1Cg0n_EnGR4Qo8CP5FX9pXIycZhxARhCceNWsXfsImsQTdzTeqp76miG3TI0ebcqHnoClTw_0rLYnhXrt0UjCRqqXd26Y7W5KxiOKw8"/>
+<img class="rounded-lg" data-alt="A therapist preparing for a massage session in a calm environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZvmV97hWeC-d5PymcAvjguNGmyBEe1G73vW1TDp2KDzKOEEMSRKYi3NZAphtteEARS1q1D_8uUXerM-tNsFLvueqJZukfrEStNKL1KEpk20ipMDfGIiKXXT4ls88fcrSx1OoAfBKlZvThksyH6QXAdXB5X6MVe5tKr88bRcdQKQW_9eC3qBDzCDAiDctfUVYka_wyFVqFH_RhHNp8Q-HhK6LP7o_K_-Cm5dyp6e84-mKIJMPWdvOI61q7bFUTRmLmFPOEg47JdC4"/>
+</div>
+</section>
+<section class="py-16 sm:py-24 bg-white/5" id="contact">
+<div class="max-w-7xl mx-auto px-6 sm:px-10 grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-white text-3xl sm:text-4xl font-bold leading-tight tracking-[-0.015em] font-display mb-6">Get In Touch</h2>
+<p class="text-white/60 font-sans mb-8">Visit us for an unparalleled relaxation experience. We are located in the heart of the city, providing a quiet sanctuary from the hustle and bustle.</p>
+<div class="space-y-4 text-white font-sans">
+<p class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">location_on</span>123 Luxury Lane, Serenity City, 45678</p>
+<p class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">call</span>(123) 456-7890</p>
+<p class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">mail</span>contact@soothe.com</p>
+<p class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">schedule</span>Mon - Sat: 9:00 AM - 8:00 PM</p>
+</div>
+</div>
+<div class="h-80 md:h-96 rounded-xl overflow-hidden">
+<img alt="Map showing the location of the Soothe spa" class="w-full h-full object-cover" data-location="Serenity City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOJl-QNdw8SuNn2Q5xI5qOALK1C9MjplvrL0ZjkqbyVq6ZyDYq2KeAaBvrpg898dZQPwW1Rb_hEsSDxqTMv_3sKt5zjcscAEIAYsbI_Fk8RaWvQgNwrXEFglA-f7DEpJPuVo_qIFkN7foxV85-JQxz9dKyRYLBbPFu_twoK6WPbxqELYNx4l_RFK3b-tn3nHg1jlJ4lwszZ62pji0g18_JqbB2bD-jOZ5VThk-bbbTSxM_MX-FwXFVa3FJnOVyFjgP7iwKQyOJMaQ"/>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark border-t border-solid border-white/10 mt-auto">
+<div class="max-w-7xl mx-auto py-8 px-6 sm:px-10 text-center text-white/60 font-sans text-sm">
+<p>© 2024 Soothe Luxury Massage. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
